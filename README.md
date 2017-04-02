@@ -6,6 +6,8 @@ Du skal lage en enkel applikasjon for å opprette handlelister. Det skal være m
 
 ![Screenshot](handleliste.png)
 
+![Screenshot](handleliste2.png)
+
 ## Oppstart
 
 Kjør følgende kommandoer i prosjektmappen:
