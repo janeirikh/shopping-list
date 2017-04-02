@@ -15,9 +15,9 @@ På denne siden skal det være mulig å:
 ### Vise detaljer for en handleliste
 ![Screenshot](handleliste2.png)
 På denne siden skal brukeren kunne:
-1. Legge til nye elementer
+1. Legge til nye elementer ved å skrive inn produktnavn og trykke på "Legg til"
 2. Trykke på teksten for å markere elementet som ferdig (strek gjennom tekst)
-3. Tykke på slett for å fjerne element
+3. Tykke på slett for å fjerne element fra listen
 
 ## Oppstart
 
