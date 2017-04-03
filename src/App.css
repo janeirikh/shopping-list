@@ -1,0 +1,135 @@
+html, body {
+  background: #202634;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #151923;
+  padding: 20px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.app-header a {
+  text-decoration: none;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.shopping-list-container {
+  display: flex;
+}
+
+.shopping-list-container > div:first-child {
+  margin-right: 20px;
+}
+
+.shopping-list-input {
+  flex-grow: 1;
+}
+
+.shopping-list-button {
+  flex-grow: 0;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+h1, h2, h3 {
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin: .5rem 0 .3rem;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+h3 {
+  font-size: .9rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  display: block;
+  background: #eb1e64;
+  border: 2px solid #F56293;
+  border-radius: 4px;
+  padding: .4rem 1rem;
+  color: #fff;
+  font-family: 'Roboto', 'sans-serif';
+  font-size: .8rem;
+  cursor: pointer;
+  transition: all .1s ease-in;
+}
+
+a { color: white }
+
+button:focus {
+  outline: none;
+  background: #BF2155;
+}
+
+button:active {
+  transform: translateY(1px) scale(.9, .9);
+  background: #BF2155;
+}
+
+.buttons > button + button {
+  margin-left: 1rem;
+}
+
+input[type=text], textarea {
+  margin-bottom: .5rem;
+  background: #343D51;
+  color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  padding: .4rem;
+  border: 1px solid #555d71;
+  border-radius: 4px;
+  font-family: 'Roboto', 'sans-serif';
+  font-size: .8rem;
+  transition: background-color .25s ease-in;
+}
+
+input[type=text]:focus, textarea:focus {
+  outline: none;
+  background: #292e3a;
+}
+
+.shopping-list {
+  list-style: none;
+}
+
+.shopping-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.shopping-list li > div:first-child {
+  margin-right: 20px;
+}
+
+.shopping-list a {
+  text-decoration: none;
+}
