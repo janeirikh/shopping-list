@@ -6,7 +6,6 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import reducers from './reducers';
 import App from './App';
-import ShoppingList from './components/ShoppingList';
 import ShoppingLists from './components/ShoppingLists';
 import './index.css';
 
@@ -22,7 +21,6 @@ ReactDOM.render(
     <Router history={history}>
       <Route path="/" component={App}>
         <IndexRoute component={ShoppingLists} />
-        <Route path="shoppinglist/:id" component={ShoppingList} />
       </Route>
     </Router>
   </Provider>,

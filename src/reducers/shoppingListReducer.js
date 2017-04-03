@@ -4,7 +4,6 @@ const shoppingListReducer = (state = {}, action) => {
             return {
                 id: action.payload.id,
                 name: action.payload.name,
-                complete: false,
                 items: []
             }
         default:
