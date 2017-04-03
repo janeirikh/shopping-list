@@ -33,6 +33,8 @@ Konfigurer routeren til å vise innholdet i komponenten ShippingLists på root "
 
 Hint: Både App- og ShippingList-komponentene skal vises. Se nærmerere på IndexRoute for å få til dette.
 
+Oppsett av router finner du i src/index.js
+
 ## Oppgave 2
 Utvid ShippingLists-komponenten med funksjonalitet for å vise en liste med handlelister som vist i skjermbildet ovenfor.
 
