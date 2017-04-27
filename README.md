@@ -29,16 +29,16 @@ npm start
 ```
 
 ## Oppgave 1
-Konfigurer routeren til å vise innholdet i komponenten ShippingLists på root "/".
+Konfigurer routeren til å vise innholdet i komponenten ShoppingLists på root "/".
 
-Hint: Både App- og ShippingList-komponentene skal vises. Se nærmerere på IndexRoute for å få til dette.
+Hint: Både App- og ShoppingList-komponentene skal vises. Se nærmerere på IndexRoute for å få til dette.
 
 Oppsett av router finner du i src/index.js
 
 ## Oppgave 2
-Utvid ShippingLists-komponenten med funksjonalitet for å vise en liste med handlelister som vist i skjermbildet ovenfor.
+Utvid ShoppingLists-komponenten med funksjonalitet for å vise en liste med handlelister som vist i skjermbildet ovenfor.
 
-Som testdata kan du utvide shippingListsReducer med default state:
+Som testdata kan du utvide ShoppingListsReducer med default state:
 ```
 const testData = [
     {
